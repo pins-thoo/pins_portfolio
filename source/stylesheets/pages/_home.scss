@@ -1,4 +1,13 @@
 // Specific CSS for your home-page
+.my-name {
+  font-family: "Plain", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.container {
+  margin: 160px auto;
+}
 
 .name-title {
   text-align: center;
@@ -14,6 +23,7 @@
 h2.designer-title {
   font-family: $serif-font;
   margin-bottom: -16px;
+  margin-top: 14px;
   font-size: 16vh;
   line-height: 1;
 }
