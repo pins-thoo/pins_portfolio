@@ -5,12 +5,24 @@
   font-weight: 400;
 }
 
-.container {
-  margin: 160px auto;
-}
+// .container {
+//   margin: 160px auto;
+// }
 
-.name-title {
+// .name-title {
+//   text-align: center;
+//   height: 100vh;
+//   margin-top: 22vh;
+// }
+
+.intro {
   text-align: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -50px;
 }
 
 .name-title h1 {
@@ -31,12 +43,94 @@ h1.designer-title {
 
 
 .app {
-  margin-top: 224px;
+  margin-top: 22px;
   text-align: center;
+  height: 100vh;
 }
 
 .app h2 {
   font-family: $serif-font;
   font-size: 30px;
   text-transform: uppercase;
+}
+
+.intro .navigation a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #4e4e4e;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.info-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 68vh;
+  p {
+    margin-top: 20px;
+    line-height: 2;
+    text-align: center;
+    font-family: $regular-font;
+    letter-spacing: 1px;
+  }
+}
+
+.about h3 {
+  margin-top: 20px;
+  font-family: $serif-font;
+  font-size: 30px;
+  text-align: center;
+}
+
+// graphic section
+
+.design {
+  text-align: center;
+  h2 {
+  font-family: $serif-font;
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+}
+
+.services {
+  text-align: center;
+  h2 {
+  font-family: $serif-font;
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  p {
+    line-height: 1.4;
+    font-family: $bold-font;
+    font-size: 8vh;
+    text-transform: uppercase;
+    color: #7a967f;
+  }
+}
+
+.freelance {
+  height: 16vh;
+  text-align: center;
+  h2 {
+  font-family: $serif-font;
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  a {
+  text-decoration: none;
+  color: #7a967f;
+  :hover {
+    color: #9aab9d;
+  }
+  }
+}
+
+.link-info {
+  margin-top: 20px;
 }

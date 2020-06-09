@@ -1,42 +1,102 @@
 <div class="container">
-  <!-- <div class="row justify-content-center">
-    <h1>Middleman Boilerplate</h1>
-  </div> -->
-  <div class="name-title">
-    <h1>CREATIVE</h1>
-    <h1 class="designer-title">DESIGNER &</h1>
-    <h1>DEVELOPER</h1>
-  </div>
-  <div class="app">
-    <h2>Web App Projects</h2>
-    <div class="card-project">
-      <a href="https://www.happyyou.xyz/" target="_blank">
-        <div class="card-image">
-          <%= image_tag("happy-screenshot-2.png", alt: "happy screenshot") %>
-          <span></span>
-        </div>
-        <div class="card-text">
-          <h3>Happy</h3>
-          <div class="card-date">
-            <p>A PWA that allows you to track your mood and activities and able to see which activity made the user happiest</p>
-            <%= image_tag "link.svg", alt: "alttext", class: "link-margin" %>
-          </div>
-        </div>
+  <div class="intro">
+    <div class="name-title">
+      <h1>CREATIVE</h1>
+      <h1 class="designer-title">DESIGNER &</h1>
+      <h1>DEVELOPER</h1>
+    </div>
+    <div class="navigation">
+      <a href="#projects">
+        <i class="fas fa-chevron-down"></i>
       </a>
     </div>
-    <div class="card-project">
-      <a href="https://pick-a-sitter.herokuapp.com/" target="_blank">
-        <div class="card-image">
-          <%= image_tag("babysitter.png", alt: "happy screenshot") %>
-          <span></span>
-        </div>
-        <div class="card-text">
-          <h3>Pick-a-Sitter</h3>
-          <div class="card-date">
-            <p>A service that helps families find a babysitter near them and able to book them</p>
-            <%= image_tag "link.svg", alt: "alttext", class: "link-margin" %>
+  </div>
+  <div class="about">
+    <h3>WHO AM I ?</h3>
+    <div class="info-about">
+      <%= image_tag "pins-prof.png", alt: "alttext", class: "avatar-pins" %>
+      <p>I am Ai Peng (Pins), a 27 yo malaysian creative designer & developer.
+        <br>
+        I've just completed the full stack coding bootcamp at Le Wagon Tokyo.
+        <br>
+        My dream is to create and build both useful and beautiful products that helps people.<br>
+        I've been doing freelance graphic design projects for about 2 years.<br>
+        Based in Kuala Lumpur, Malaysia. Available worldwide.</p>
+    </div>
+  </div>
+  <div class="app" id="projects">
+    <h2>Web App Projects</h2>
+    <div class="card-deck">
+      <div class="card-project">
+        <a href="https://www.happyyou.xyz/" target="_blank">
+          <div class="card-image">
+            <%= image_tag("happy-mob.png", alt: "happy screenshot") %>
+            <span></span>
           </div>
-        </div>
+          <div class="card-text">
+            <h3>Happy</h3>
+            <div class="card-date">
+              <p>A PWA that allows you to track your mood and activities and able to see which activity made the user happiest</p>
+              <%= image_tag "link.svg", alt: "alttext", class: "link-margin" %>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-project">
+        <a href="https://pick-a-sitter.herokuapp.com/" target="_blank">
+          <div class="card-image">
+            <%= image_tag("babysitter-mob.png", alt: "babysitter screenshot") %>
+            <span></span>
+          </div>
+          <div class="card-text">
+            <h3>Pick-a-Sitter</h3>
+            <div class="card-date">
+              <p>A service that helps families find a babysitter near them and able to book them</p>
+              <%= image_tag "link.svg", alt: "alttext", class: "link-margin" %>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-project">
+        <a href="https://the-bartender.herokuapp.com/" target="_blank">
+          <div class="card-image">
+            <%= image_tag("bar-mob.png", alt: "bar screenshot") %>
+            <span></span>
+          </div>
+          <div class="card-text">
+            <h3>The Bartender</h3>
+            <div class="card-date">
+              <p>A web app for storing and creating your favourite cocktail recipes</p>
+              <%= image_tag "link.svg", alt: "alttext", class: "link-margin" %>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="design" id="graphics">
+    <h2>Graphics</h2>
+  </div>
+  <div class="services" id="services">
+    <h2>What I Do ?</h2>
+    <p>
+      Graphic Design, <br>
+      Web Developing, <br>
+      UI Design, <br>
+      Art Direction.
+    </p>
+  </div>
+  <div class="freelance" id="freelance">
+    <h2>Contact</h2>
+    <div class="link-info">
+      <a href="mailto:aipeng.thoo@gmail.com">
+        <i class="fas fa-envelope" style="font-size:28px;padding: 0 16px;"></i>
+      </a>
+      <a href="https://github.com/pins-thoo" target="_blank">
+        <i class="fab fa-github" style="font-size:28px;padding: 0 16px;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/pins-thoo/" target="_blank">
+        <i class="fab fa-linkedin" style="font-size:28px;padding: 0 16px;"></i>
       </a>
     </div>
   </div>
