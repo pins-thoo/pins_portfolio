@@ -1,1 +1,19 @@
 // Specific CSS for your home-page
+
+.name-title {
+  text-align: center;
+}
+
+.name-title h2 {
+  font-family: $bold-font;
+  // margin-bottom: 0;
+  font-size: 14vh;
+  line-height: .8;
+}
+
+h2.designer-title {
+  font-family: $serif-font;
+  margin-bottom: -16px;
+  font-size: 16vh;
+  line-height: 1;
+}

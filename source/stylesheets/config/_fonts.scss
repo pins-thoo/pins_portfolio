@@ -14,3 +14,17 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url(./fonts/NeueMontreal-Bold.otf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+$bold-font: "NeueMontreal";
+
+@font-face {
+  font-family: "Elgoc";
+  src: url(./fonts/Elgoc-Thin.otf) format('truetype');
+}
+$serif-font: "Elgoc";
