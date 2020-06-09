@@ -13,17 +13,29 @@
   text-align: center;
 }
 
-.name-title h2 {
+.name-title h1 {
   font-family: $bold-font;
   // margin-bottom: 0;
   font-size: 14vh;
   line-height: .8;
 }
 
-h2.designer-title {
+h1.designer-title {
   font-family: $serif-font;
   margin-bottom: -16px;
   margin-top: 14px;
   font-size: 16vh;
   line-height: 1;
+}
+
+
+.app {
+  margin-top: 224px;
+  text-align: center;
+}
+
+.app h2 {
+  font-family: $serif-font;
+  font-size: 30px;
+  text-transform: uppercase;
 }
