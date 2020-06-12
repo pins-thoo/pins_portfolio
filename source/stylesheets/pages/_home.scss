@@ -2,7 +2,7 @@
 .my-name {
   // font-family: "Plain", sans-serif;
   font-family: $medium-font;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: .5px;
   color: #4e4e4e;
@@ -50,7 +50,7 @@
 .name-title h1 {
   font-family: $bold-font;
   // margin-bottom: 0;
-  font-size: 14vh;
+  font-size: 16vh;
   line-height: .8;
   color: #7a967f;
 }
@@ -59,7 +59,7 @@ h1.designer-title {
   font-family: $serif-font;
   margin-bottom: -16px;
   margin-top: 14px;
-  font-size: 16vh;
+  font-size: 18vh;
   line-height: 1;
 }
 
@@ -71,7 +71,7 @@ h1.designer-title {
 
 .web-app h2 {
   font-family: $serif-font;
-  font-size: 33px;
+  font-size: 44px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -84,7 +84,7 @@ h1.designer-title {
   color: #4e4e4e;
   cursor: pointer;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .info-about {
@@ -99,14 +99,14 @@ h1.designer-title {
     text-align: center;
     font-family: $regular-font;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
 .about h3 {
   margin-top: 20px;
   font-family: $serif-font;
-  font-size: 33px;
+  font-size: 44px;
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ h1.designer-title {
   text-align: center;
   h2 {
   font-family: $serif-font;
-  font-size: 33px;
+  font-size: 44px;
   text-transform: uppercase;
   margin-bottom: 30px;
   }
@@ -195,7 +195,7 @@ h2.packaging-title {
   height: 50vh;
   h2 {
   font-family: $serif-font;
-  font-size: 33px;
+  font-size: 44px;
   text-transform: uppercase;
   margin-bottom: 22px;
   }
