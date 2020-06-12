@@ -12,6 +12,7 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "📌 Ai Peng Thoo - Web Developer | Graphic Designer" %></title>
+    <meta name="description" content="Web Developer & Designer in Kuala Lumpur, Malaysia. Available worldwide.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -28,7 +29,7 @@
 
   <body class="<%= page_classes %>">
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <% link_to '#about', class: 'navbar-brand' do %>
+      <% link_to '/', class: 'navbar-brand' do %>
         <p class="my-name">AI PENG THOO</p>
         <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
       <% end %>
