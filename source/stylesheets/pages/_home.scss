@@ -1,8 +1,30 @@
 // Specific CSS for your home-page
 .my-name {
-  font-family: "Plain", sans-serif;
+  // font-family: "Plain", sans-serif;
+  font-family: $medium-font;
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  color: #4e4e4e;
+}
+
+.contact-links-top {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  i {
+    color: #4e4e4e;
+    text-decoration: none;
+  }
+  :hover {
+      color: #7a967f;
+      text-decoration: none;
+  }
+}
+
+.navbar-brand {
+  :hover {
+    color: #7a967f;
+  }
 }
 
 // .container {
@@ -44,7 +66,7 @@ h1.designer-title {
 
 .web-app {
   margin-top: 80px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .web-app h2 {
@@ -77,6 +99,7 @@ h1.designer-title {
     text-align: center;
     font-family: $regular-font;
     letter-spacing: 1px;
+    font-size: 14px;
   }
 }
 
@@ -87,6 +110,11 @@ h1.designer-title {
   text-align: center;
 }
 
+.about {
+  margin-top: 80px;
+  height: 90vh;
+}
+
 // graphic section
 
 .design {
@@ -95,22 +123,84 @@ h1.designer-title {
   font-family: $serif-font;
   font-size: 33px;
   text-transform: uppercase;
+  margin-bottom: 30px;
   }
 }
 
 .logo h2 {
-  font-size: 60px;
+  margin: 0 auto;
+  border: 1px solid black;
+  font-size: 24px;
+  width: 90px;
+  height: 59px;
+  padding-top: 3px;
+  margin-bottom: 20px;
+}
+
+.logo-images {
+  margin-bottom: 30px;
+}
+
+h2.digital {
+  margin: 0 auto;
+  border: 1px solid black;
+  font-size: 24px;
+  width: 162px;
+  height: 60px;
+  padding-top: 3px;
+  margin-bottom: 20px
+}
+
+.dogs {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.plants {
+  margin-bottom: 30px;
+}
+
+h2.media-design {
+  margin: 0 auto;
+  border: 1px solid black;
+  font-size: 24px;
+  width: 162px;
+  height: 60px;
+  padding-top: 3px;
+  margin-bottom: 20px
+}
+
+.social-media-pictures {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2.packaging-title {
+  margin: 0 auto;
+  border: 1px solid black;
+  font-size: 24px;
+  width: 140px;
+  height: 32px;
+  padding-top: 3px;
+  margin-bottom: 20px
+}
+
+.packaging-pictures {
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .services {
   text-align: center;
+  height: 50vh;
   h2 {
   font-family: $serif-font;
   font-size: 33px;
   text-transform: uppercase;
+  margin-bottom: 22px;
   }
   p {
-    line-height: 1.4;
+    line-height: 1;
     font-family: $bold-font;
     font-size: 8vh;
     text-transform: uppercase;
@@ -118,23 +208,27 @@ h1.designer-title {
   }
 }
 
-.freelance {
-  height: 16vh;
-  text-align: center;
-  h2 {
-  font-family: $serif-font;
-  font-size: 33px;
-  text-transform: uppercase;
-  }
-  a {
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link a {
   text-decoration: none;
   color: #7a967f;
   :hover {
     color: #9aab9d;
   }
-  }
 }
 
-.link-info {
-  margin-top: 20px;
+.footer {
+  font-size: 12px;
+  font-family: "Plain", sans-serif;
+  color: #7a967f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  border-top: 1px solid #DCDCDC;
 }

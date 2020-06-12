@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "📌 Ai Peng Thoo - Graphic Designer and Developer" %></title>
+    <title><%= current_page.data.title || "📌 Ai Peng Thoo - Web Developer | Graphic Designer" %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -28,10 +28,25 @@
 
   <body class="<%= page_classes %>">
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <% link_to '/', class: 'navbar-brand' do %>
+      <% link_to '#about', class: 'navbar-brand' do %>
         <p class="my-name">AI PENG THOO</p>
         <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
       <% end %>
+
+      <div class="contact-links-top">
+        <% link_to "#contact" do %>
+          <i class="fas fa-envelope" style="font-size:14px;padding:10px;"></i>
+        <% end %>
+        <% link_to "#about" do %>
+          <i class="fas fa-user" style="font-size:14px;padding:10px;"></i>
+        <% end %>
+        <% link_to "#projects" do %>
+          <i class="fas fa-laptop-code" style="font-size:14px;padding:10px;"></i>
+        <% end %>
+        <% link_to "#graphics" do  %>
+          <i class="fas fa-magic" style="font-size:14px;padding:10px;"></i>
+        <% end %>
+      </div>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,10 +54,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <p class="my-name">KUALA LUMPUR, MALAYSIA</p>
+            <p class="my-name">KUALA LUMPUR, MYS</p>
             <%#= link_to "Home", "#", class: "nav-link" %>
           </li>
           <li class="nav-item">
+
             <%#= link_to "Messages", "#", class: "nav-link" %>
           </li>
           <li class="nav-item dropdown">
