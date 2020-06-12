@@ -42,15 +42,15 @@ h1.designer-title {
 }
 
 
-.app {
-  margin-top: 22px;
-  text-align: center;
+.web-app {
+  margin-top: 80px;
   height: 100vh;
 }
 
-.app h2 {
+.web-app h2 {
   font-family: $serif-font;
-  font-size: 30px;
+  font-size: 33px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -83,7 +83,7 @@ h1.designer-title {
 .about h3 {
   margin-top: 20px;
   font-family: $serif-font;
-  font-size: 30px;
+  font-size: 33px;
   text-align: center;
 }
 
@@ -93,7 +93,7 @@ h1.designer-title {
   text-align: center;
   h2 {
   font-family: $serif-font;
-  font-size: 30px;
+  font-size: 33px;
   text-transform: uppercase;
   }
 }
@@ -106,7 +106,7 @@ h1.designer-title {
   text-align: center;
   h2 {
   font-family: $serif-font;
-  font-size: 30px;
+  font-size: 33px;
   text-transform: uppercase;
   }
   p {
@@ -123,7 +123,7 @@ h1.designer-title {
   text-align: center;
   h2 {
   font-family: $serif-font;
-  font-size: 30px;
+  font-size: 33px;
   text-transform: uppercase;
   }
   a {
