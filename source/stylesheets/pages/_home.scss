@@ -1,5 +1,5 @@
 // Specific CSS for your home-page
-.my-name {
+.my-name, .city-name {
   // font-family: "Plain", sans-serif;
   font-family: $medium-font;
   font-size: 18px;
@@ -11,6 +11,18 @@
 @media screen and (max-device-width: 640px){
   .my-name {
     font-size: 15px;
+    margin: 6px auto;
+  }
+  .city-name {
+    display: none;
+  }
+  i.fas.fa-envelope, i.fas.fa-user, i.fas.fa-laptop-code, i.fas.fa-magic {
+    font-size: 14px !important;
+    padding: 8px !important;
+  }
+  .contact-links-top {
+    margin: unset !important;
+    margin-bottom: unset !important;
   }
 }
 
@@ -78,7 +90,6 @@ h1.designer-title {
     margin-top: 10px;
     font-size: 9vh;
   }
-
 }
 
 .web-app {
@@ -104,6 +115,12 @@ h1.designer-title {
   font-size: 34px;
 }
 
+@media screen and (max-device-width: 640px){
+  .intro .navigation a {
+    font-size: 30px;
+  }
+}
+
 .info-about {
   display: flex;
   align-items: center;
@@ -117,6 +134,12 @@ h1.designer-title {
     font-family: $regular-font;
     letter-spacing: 1px;
     font-size: 18px;
+  }
+}
+
+@media screen and (max-device-width: 640px){
+  .info-about {
+    height: 100vh;
   }
 }
 
