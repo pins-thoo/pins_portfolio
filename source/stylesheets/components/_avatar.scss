@@ -36,3 +36,9 @@
   width: 360px;
   padding: 10px 8px;
 }
+
+@media screen and (max-device-width: 640px){
+  .avatar-pins {
+    width: 200px;
+  }
+}
