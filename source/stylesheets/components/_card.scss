@@ -150,3 +150,14 @@ a.card_link {
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-device-width: 640px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    margin: 12px auto;
+    width: 71.3%;
+    height: 626px;
+  }
+}
