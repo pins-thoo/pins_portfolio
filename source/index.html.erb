@@ -1,10 +1,189 @@
 <div class="container">
-  <div class="row justify-content-center">
-    <h1>Middleman Boilerplate</h1>
+  <div class="intro">
+    <div class="name-title">
+      <h1>CREATIVE</h1>
+      <h1 class="designer-title">DESIGNER &</h1>
+      <h1>DEVELOPER</h1>
+    </div>
+    <div class="navigation">
+      <a href="#about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
   </div>
-  <div class="name-title">
-    <h2>CREATIVE</h2>
-    <h2 class="designer-title">DESIGNER &</h2>
-    <h2>DEVELOPER</h2>
+  <div class="about" id="about">
+    <h3>WHO AM I ?</h3>
+    <div class="info-about">
+      <%= image_tag "prof-pic.png", alt: "alttext", class: "avatar-pins" %>
+      <p>杜愛萍
+        <br>
+        Ai Peng Thoo (Pins)
+        <br>
+        A 27 yo malaysian creative designer & developer.
+        <br>
+        I've just completed the full stack coding bootcamp at Le Wagon Tokyo.
+        <br>
+        My dream is to create and build both useful and beautiful products that helps people.<br>
+        I've been doing freelance graphic design projects for about 2 years.<br>
+        Based in Kuala Lumpur, Malaysia. Available worldwide.</p>
+    </div>
+  </div>
+  <div class="services" id="services">
+    <h2>What I Do ?</h2>
+    <p>Web Developing, </p>
+    <p>Graphic Design, </p>
+    <p>UI Design, </p>
+    <p>Art Direction. </p>
+  </div>
+</div>
+<div class="web-app" id="projects">
+  <h2>Web App Projects</h2>
+  <section class="cards">
+    <article class="card card--1">
+      <a href="https://www.happyyou.xyz/" class="card_link" target="_blank">
+        <div class="card__info-hover">
+          <svg class="card__like"  viewBox="0 0 24 24">
+            <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+          </svg>
+          <div class="card__clock-info">
+            <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+            </svg><span class="card__time">12 days</span>
+          </div>
+        </div>
+        <div class="card__img"></div>
+        <div class="card__img--hover"></div>
+        <div class="card__info">
+          <span class="card__category"> Back-end Lead | <br>
+            Project Manager</span>
+          <h3 class="card__title">Happy</h3>
+          <p class="card__by">A PWA that allows you to track your mood and activities and able to see which activity made the user happiest</p>
+          <span><i class="devicon-rails-plain-wordmark"></i></span>
+          <span><i class="devicon-javascript-plain"></i></span>
+          <span><i class="devicon-postgresql-plain-wordmark"></i></span>
+          <span><i class="devicon-heroku-original"></i></span>
+        </div>
+      </a>
+    </article>
+    <article class="card card--2">
+      <a href="https://pick-a-sitter.herokuapp.com/" class="card_link" target="_blank">
+        <div class="card__info-hover">
+          <svg class="card__like"  viewBox="0 0 24 24">
+            <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+          </svg>
+          <div class="card__clock-info">
+            <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+            </svg><span class="card__time">7 days</span>
+          </div>
+        </div>
+        <div class="card__img"></div>
+        <div class="card__img--hover"></div>
+        <div class="card__info">
+          <span class="card__category"> Back-end Lead | <br>
+            Project Manager</span>
+          <h3 class="card__title">Pick-a-Sitter</h3>
+          <p class="card__by">A service that helps families find a babysitter near them and able to book them</p>
+          <span><i class="devicon-rails-plain-wordmark"></i></span>
+          <span><i class="devicon-javascript-plain"></i></span>
+          <span><i class="devicon-postgresql-plain-wordmark"></i></span>
+          <span><i class="devicon-heroku-original"></i></span>
+        </div>
+      </a>
+    </article>
+    <article class="card card--3">
+      <a href="https://the-bartender.herokuapp.com/" class="card_link" target="_blank">
+        <div class="card__info-hover">
+          <svg class="card__like"  viewBox="0 0 24 24">
+            <path fill="#000000" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+          </svg>
+          <div class="card__clock-info">
+            <svg class="card__clock"  viewBox="0 0 24 24"><path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+            </svg><span class="card__time">2 days</span>
+          </div>
+        </div>
+        <div class="card__img"></div>
+        <div class="card__img--hover"></div>
+        <div class="card__info">
+          <span class="card__category"> Full Stack dev</span>
+          <h3 class="card__title">The Bartender</h3>
+          <p class="card__by">A web app for storing and creating your favourite cocktail recipes</p>
+          <span><i class="devicon-rails-plain-wordmark"></i></span>
+          <span><i class="devicon-javascript-plain"></i></span>
+          <span><i class="devicon-postgresql-plain-wordmark"></i></span>
+          <span><i class="devicon-heroku-original"></i></span>
+        </div>
+      </a>
+    </article>
+  </section>
+</div>
+<div class="design" id="graphics">
+  <h2>Graphics</h2>
+  <div class="logo">
+    <h2>Logo Design</h2>
+    <div class="logo-images">
+      <%= image_tag "decor-logo.png", alt: "alttext", class: "avatar-logo" %>
+      <%= image_tag "write-it.png", alt: "alttext", class: "avatar-logo" %>
+      <%= image_tag "NOVID.png", alt: "alttext", class: "avatar-logo" %>
+      <%= image_tag "grey-white.png", alt: "alttext", class: "avatar-logo" %>
+      <%= image_tag "tp1.png", alt: "alttext", class: "avatar-logo" %>
+    </div>
+  </div>
+  <div class="illustration">
+    <h2 class="digital">Digital Illustration</h2>
+    <div class="dogs">
+      <%= image_tag "dog-1.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "dog-2.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "dog-3.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "dog-4.png", alt: "alttext", class: "avatar-dog" %>
+    </div>
+    <div class="plants">
+      <%= image_tag "21.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "22.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "23.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "24.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "25.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "26.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "27.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "28.png", alt: "alttext", class: "avatar-dog" %>
+      <%= image_tag "30.png", alt: "alttext", class: "avatar-dog" %>
+    </div>
+  </div>
+  <div class="social-media">
+    <h2 class="media-design">Social Media Design</h2>
+    <div class="social-media-pictures">
+      <%= image_tag "sm-1.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-2.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-3.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-4.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-5.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-6.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-7.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "sm-8.png", alt: "alttext", class: "avatar-sm" %>
+    </div>
+  </div>
+  <div class="packaging">
+    <h2 class="packaging-title">Packaging</h2>
+    <div class="packaging-pictures">
+      <%= image_tag "product-1.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "product-3.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "product-4.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "product-5.png", alt: "alttext", class: "avatar-sm" %>
+      <%= image_tag "product-6.png", alt: "alttext", class: "avatar-sm" %>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer-copyright">
+    © 2020 Ai Peng Thoo. All rights reserved
+  </div>
+  <div class="footer-link" id="contact">
+    <a href="mailto:aipeng.thoo@gmail.com">
+      <i class="fas fa-envelope" style="font-size:26px;padding: 0 16px;"></i>
+    </a>
+    <a href="https://github.com/pins-thoo" target="_blank">
+      <i class="fab fa-github" style="font-size:26px;padding: 0 16px;"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/pins-thoo/" target="_blank">
+      <i class="fab fa-linkedin" style="font-size:26px;padding: 0 16px;"></i>
+    </a>
   </div>
 </div>

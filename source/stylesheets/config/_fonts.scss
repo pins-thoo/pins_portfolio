@@ -16,12 +16,27 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 // $my-font: "Font Name";
 
 @font-face {
-  font-family: "NeueMontreal";
+  font-family: "NeueMontreal-Bold";
   src: url(./fonts/NeueMontreal-Bold.otf) format('truetype');
   font-weight: bold;
   font-style: normal;
 }
-$bold-font: "NeueMontreal";
+$bold-font: "NeueMontreal-Bold";
+
+@font-face {
+  font-family: "NeueMontreal-Medium";
+  src: url(./fonts/NeueMontreal-Medium.otf) format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+$medium-font: "NeueMontreal-Medium";
+
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url(./fonts/NeueMontreal-Regular.otf) format('truetype');
+  font-style: normal;
+}
+$regular-font: "NeueMontreal-Regular";
 
 @font-face {
   font-family: "Elgoc";
